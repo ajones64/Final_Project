@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>ProjectContact</title>
+
+    <meta charset=“utf-8>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Style.css">
+
+
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+        <h1><a href="index.html">Debby's Scrapbooks&nbsp;</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home&nbsp;</a></li>
+
+            <li><a href="scrapbooks.html">Scrapbooks&nbsp;</a></li>
+
+            <li><a href="gallery.html">Gallery&nbsp;</a></li>
+
+            <li><a href="contact.html">Contact Us&nbsp;</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div id="herojobs">            
+        </div>
+
+        <h2>Create your custom scrapbook</h2>
+
+        <p>
+            Want to request a custom scrapbook?
+            Fill out the form bellow to start the process.
+            All information is required.
+        </p>
+
+        <form method="POST" action="https://webdevbasics.net/scripts/javajam8.php">
+            <div class="grid-container">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="myName" required><br>
+          
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="myEmail" required><br>
+
+              <label for="start-date">Date needed:</label><br>
+              <input type="date" id="date-needed" name="myDate" required><br>
+          
+              <label for="message">Design idea:</label><br>
+              <textarea id="Design-idea" name="myDesign" rows="2" cols="20" required></textarea><br>
+
+              <input id= mySubmit type="submit" value="Apply Now">
+            </div>
+          </form>
+    </main>
+
+    <footer>
+
+        Copyright &#169 2024 Debby's scrapbooks
+        <br>
+        <a href="mailto:aleigha@jones.com">aleigha@jones.com</a>
+    </footer>
+</div>
+</body>
+
+</html>
